@@ -13,9 +13,20 @@
 .empty{
 
     height: 43rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .text-empty{
-        padding-top: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
+        border: 3px solid white;
+        height: 80%;
+        width: 90%;
+        font-family: 'Coustard', serif;
+        font-size: 32px;
+
     }
 }
 

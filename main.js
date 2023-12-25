@@ -4,7 +4,7 @@ const empty = document.getElementById("empty")
 
 over.addEventListener("mouseover", ()=>{
 
-    empty.innerHTML = `Comenzar`
+    empty.innerHTML = `COMENZAR`
 
 })
 
@@ -16,7 +16,7 @@ over.addEventListener ("mouseout", ()=>{
 
 over2.addEventListener("mouseover", ()=>{
 
-    empty.innerHTML = `Crea tu personaje`
+    empty.innerHTML = `CREA TU PERSONAJE`
 })
 
 over2.addEventListener("mouseout", ()=>{
